@@ -18,4 +18,6 @@ int main()
     asio::io_context io;
     asio::serial_port ser(io, port);
     ser.set_option(asio::serial_port_base::baud_rate(115200));
+
+    std::cout << "Connected to " << port << std::endl;
 }
