@@ -1,32 +1,32 @@
 [
 {
-  "directory": "/home/clearcash/AE/Nano Boat Controller 2026/build",
-  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I\"/home/clearcash/AE/Nano Boat Controller 2026/include\" -std=gnu++20 -o CMakeFiles/boat-controller.dir/src/Main.cpp.o -c \"/home/clearcash/AE/Nano Boat Controller 2026/src/Main.cpp\"",
-  "file": "/home/clearcash/AE/Nano Boat Controller 2026/src/Main.cpp",
+  "directory": "/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/build",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/include -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/boat-controller.dir/src/Main.cpp.o -c /Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/src/Main.cpp",
+  "file": "/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/src/Main.cpp",
   "output": "CMakeFiles/boat-controller.dir/src/Main.cpp.o"
 },
 {
-  "directory": "/home/clearcash/AE/Nano Boat Controller 2026/build",
-  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I\"/home/clearcash/AE/Nano Boat Controller 2026/include\" -std=gnu++20 -o CMakeFiles/boat-controller.dir/src/Serial.cpp.o -c \"/home/clearcash/AE/Nano Boat Controller 2026/src/Serial.cpp\"",
-  "file": "/home/clearcash/AE/Nano Boat Controller 2026/src/Serial.cpp",
+  "directory": "/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/build",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/include -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/boat-controller.dir/src/Serial.cpp.o -c /Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/src/Serial.cpp",
+  "file": "/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/src/Serial.cpp",
   "output": "CMakeFiles/boat-controller.dir/src/Serial.cpp.o"
 },
 {
-  "directory": "/home/clearcash/AE/Nano Boat Controller 2026/build",
-  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I\"/home/clearcash/AE/Nano Boat Controller 2026/include\" -std=gnu++20 -o CMakeFiles/boat-controller.dir/src/VescUart.cpp.o -c \"/home/clearcash/AE/Nano Boat Controller 2026/src/VescUart.cpp\"",
-  "file": "/home/clearcash/AE/Nano Boat Controller 2026/src/VescUart.cpp",
+  "directory": "/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/build",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/include -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/boat-controller.dir/src/VescUart.cpp.o -c /Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/src/VescUart.cpp",
+  "file": "/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/src/VescUart.cpp",
   "output": "CMakeFiles/boat-controller.dir/src/VescUart.cpp.o"
 },
 {
-  "directory": "/home/clearcash/AE/Nano Boat Controller 2026/build",
-  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I\"/home/clearcash/AE/Nano Boat Controller 2026/include\" -std=gnu++20 -o CMakeFiles/boat-controller.dir/src/buffer.cpp.o -c \"/home/clearcash/AE/Nano Boat Controller 2026/src/buffer.cpp\"",
-  "file": "/home/clearcash/AE/Nano Boat Controller 2026/src/buffer.cpp",
+  "directory": "/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/build",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/include -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/boat-controller.dir/src/buffer.cpp.o -c /Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/src/buffer.cpp",
+  "file": "/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/src/buffer.cpp",
   "output": "CMakeFiles/boat-controller.dir/src/buffer.cpp.o"
 },
 {
-  "directory": "/home/clearcash/AE/Nano Boat Controller 2026/build",
-  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_SYSTEM_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I\"/home/clearcash/AE/Nano Boat Controller 2026/include\" -std=gnu++20 -o CMakeFiles/boat-controller.dir/src/crc.cpp.o -c \"/home/clearcash/AE/Nano Boat Controller 2026/src/crc.cpp\"",
-  "file": "/home/clearcash/AE/Nano Boat Controller 2026/src/crc.cpp",
+  "directory": "/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/build",
+  "command": "/usr/bin/c++ -DBOOST_ATOMIC_DYN_LINK -DBOOST_ATOMIC_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_CHRONO_NO_LIB -DBOOST_CONTAINER_DYN_LINK -DBOOST_CONTAINER_NO_LIB -DBOOST_DATE_TIME_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_THREAD_DYN_LINK -DBOOST_THREAD_NO_LIB -I/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/include -isystem /opt/homebrew/include -std=gnu++20 -arch arm64 -o CMakeFiles/boat-controller.dir/src/crc.cpp.o -c /Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/src/crc.cpp",
+  "file": "/Users/akshajkanumuri/Documents/GitHub/Nano-Boat-Controller-2026/src/crc.cpp",
   "output": "CMakeFiles/boat-controller.dir/src/crc.cpp.o"
 }
 ]
