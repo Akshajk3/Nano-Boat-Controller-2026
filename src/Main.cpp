@@ -4,12 +4,8 @@
 
 int main()
 {
-    Serial serial("");
-    std::string port = serial.getSerialPort();
-
-    if (port == "") {
-        throw std::runtime_error("No Serial Ports Found");
-    }
+    Serial serial;
+    boost::asio::serial_port* ser = serial.getPort();
 
     return 0;
 }
