@@ -8,16 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/clearcash/AE/Nano Boat Controller 2026/src/Main.cpp" "CMakeFiles/boat-controller.dir/src/Main.cpp.o" "gcc" "CMakeFiles/boat-controller.dir/src/Main.cpp.o.d"
-  "/home/clearcash/AE/Nano Boat Controller 2026/src/Serial.cpp" "CMakeFiles/boat-controller.dir/src/Serial.cpp.o" "gcc" "CMakeFiles/boat-controller.dir/src/Serial.cpp.o.d"
+  "/home/clearcash/Nano-Boat-Controller-2026/src/Main.cpp" "CMakeFiles/boat-controller.dir/src/Main.cpp.o" "gcc" "CMakeFiles/boat-controller.dir/src/Main.cpp.o.d"
+  "/home/clearcash/Nano-Boat-Controller-2026/src/Serial.cpp" "CMakeFiles/boat-controller.dir/src/Serial.cpp.o" "gcc" "CMakeFiles/boat-controller.dir/src/Serial.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

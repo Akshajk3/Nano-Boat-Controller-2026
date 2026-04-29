@@ -1,4 +1,4 @@
-/ Pin Definitions
+// Pin Definitions
 const int potPin = A0;
 const int enPin = 8;
 const int dirPin = 9;
