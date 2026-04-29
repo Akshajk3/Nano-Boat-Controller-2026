@@ -44,7 +44,7 @@ public:
         uint8_t minor;
     };
 
-    VescUart(boost::asio::serial_port* ser, int buadrate, uint32_t timeout_ms = 100);
+    VescUart(boost::asio::serial_port* ser, uint32_t timeout_ms = 100);
     
     dataPackage data;
     nunchuckPackage nunchuck;
@@ -63,7 +63,7 @@ public:
 
 private:
     boost::asio::io_context io;
-    boost::asio::serial_port ser;
+    boost::asio::serial_port* ser;
     const uint32_t timeout;
 
     int packSendPackPayload(uint8_t* payload, int lenPay);

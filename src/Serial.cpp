@@ -6,8 +6,14 @@ Serial::Serial() {
         throw std::runtime_error("No Serial Ports Found!");
     }
 
+    int baudrate = 115200;
+    std::cout << "Enter a Baudrate: ";
+    std::string input;
+    std::cin >> input;
+    baudrate = std::stoi(input);
+
     ser.open(port);
-    ser.set_option(boost::asio::serial_port_base::baud_rate(115200));
+    ser.set_option(boost::asio::serial_port_base::baud_rate(baudrate));
     ser.set_option(boost::asio::serial_port_base::character_size(8));
     ser.set_option(boost::asio::serial_port_base::parity(boost::asio::serial_port_base::parity::none));
     ser.set_option(boost::asio::serial_port_base::stop_bits(boost::asio::serial_port_base::stop_bits::one));
