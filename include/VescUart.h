@@ -1,8 +1,10 @@
 #ifndef _VESCUART_h
 #define _VESCUART_h
 
+#include <iostream>
 #include <string>
 #include <cstdint>
+#include <chrono>
 #include <boost/asio.hpp>
 #include "datatypes.h"
 #include "buffer.h"
@@ -48,7 +50,7 @@ public:
     
     dataPackage data;
     nunchuckPackage nunchuck;
-    FWversionPackage version;
+    FWversionPackage fw;
 
     bool getFWVersion(uint8_t canID = 0);
     bool getVescValues(uint8_t canID = 0);
@@ -71,6 +73,8 @@ private:
     bool unpackPayload(uint8_t* message, int lenMes, uint8_t* payload);
     bool processReadPacket(uint8_t* message);
     void serialPrint(uint8_t* data, int len);
+
+    uint32_t millis();
 };
 
 #endif
