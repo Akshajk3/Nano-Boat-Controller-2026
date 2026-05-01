@@ -72,7 +72,6 @@ private:
     int receiveUartMessage(uint8_t* payloadReceived);
     bool unpackPayload(uint8_t* message, int lenMes, uint8_t* payload);
     bool processReadPacket(uint8_t* message);
-    void serialPrint(uint8_t* data, int len);
 
     uint32_t millis();
 };

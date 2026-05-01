@@ -203,14 +203,83 @@ bool VescUart::getVescValues(uint8_t canID) {
 	return false;
 }
 
+void VescUart::setCurrent(float current, uint8_t canID) {
+	int32_t index = 0;
+	int payloadSize = (canID == 0 ? 5 : 7);
+	uint8_t payload[payloadSize];
+	if (canID != 0) {
+		payload[index++] = { COMM_FORWARD_CAN };
+		payload[index++] = canID;
+	}
+
+	payload[index++] = { COMM_SET_CURRENT };
+	buffer_append_int32(payload, (int32_t)(current * 1000), &index);
+	packSendPackPayload(payload, payloadSize);
+}
+
+void VescUart::setBrakeCurrent(float current, uint8_t canID) { 
+	int32_t index = 0;
+	int payloadSize = (canID == 0 ? 5 : 7);
+	uint8_t payload[payloadSize];
+	if (canID != 0) {
+		payload[index++] = { COMM_FORWARD_CAN };
+		payload[index++] = canID;
+	}
+
+	payload[index++] = { COMM_SET_CURRENT_BRAKE };
+	buffer_append_int32(payload, (int32_t)(current * 1000), &index);
+	packSendPackPayload(payload, payloadSize);
+}
+
+void VescUart::setRPM(float rpm, uint8_t canID) {
+	int32_t index = 0;
+	int payloadSize = (canID == 0 ? 5 : 7);
+	uint8_t payload[payloadSize];
+	if (canID != 0) {
+		payload[index++] = { COMM_FORWARD_CAN };
+		payload[index++] = canID;
+	}
+
+	payload[index++] = { COMM_SET_RPM };
+	buffer_append_int32(payload, (int32_t)(rpm), &index);
+	packSendPackPayload(payload, payloadSize);
+}
+
+void VescUart::setDuty(float duty, uint8_t canID) {
+	int32_t index = 0;
+	int payloadSize = (canID == 0 ? 5 : 7);
+	uint8_t payload[payloadSize];
+	if (canID != 0) {
+		payload[index++] = { COMM_FORWARD_CAN };
+		payload[index++] = canID;
+	}
+
+	payload[index++] = { COMM_SET_DUTY };
+	buffer_append_int32(payload, (int32_t)(duty), &index);
+	packSendPackPayload(payload, payloadSize);
+}
+
+void VescUart::sendKeepaLive(uint8_t canID) {
+	int32_t index = 0;
+	int payloadSize = (canID == 0 ? 5 : 7);
+	uint8_t payload[payloadSize];
+	if (canID != 0) {
+		payload[index++] = { COMM_FORWARD_CAN };
+		payload[index++] = canID;
+	}
+
+	payload[index++] = { COMM_ALIVE };
+	packSendPackPayload(payload, payloadSize);
+}
+
 void VescUart::printVescValues() {
-    std::cout << "avgMotorCurrent: " << data.avgMotorCurrent << std::endl;
-    std::cout << "avgInputCurrent: " << data.avgInputCurrent << std::endl;
-    std::cout << "dutyCycleNow: "    << data.dutyCycleNow    << std::endl;
-    std::cout << "rpm: "             << data.rpm             << std::endl;
-    std::cout << "inputVoltage: "    << data.inpVoltage      << std::endl;
-    std::cout << "ampHours: "        << data.ampHours        << std::endl;
-    std::cout << "tempMosfet: "      << data.tempMosfet      << std::endl;
-    std::cout << "tempMotor: "       << data.tempMotor       << std::endl;
-    std::cout << "error: "           << data.error           << std::endl;
+    std::cout << "avgMotorCurrent: " << data.avgMotorCurrent;
+    std::cout << " | avgInputCurrent: " << data.avgInputCurrent;
+    std::cout << " | dutyCycleNow: "    << data.dutyCycleNow;
+    std::cout << " | rpm: "             << data.rpm;
+    std::cout << " | inputVoltage: "    << data.inpVoltage;
+    std::cout << " | ampHours: "        << data.ampHours;
+    std::cout << " | tempMosfet: "      << data.tempMosfet;
+    std::cout << " | tempMotor: "       << data.tempMotor;
+    std::cout << " | error: "           << data.error << std::endl;
 }

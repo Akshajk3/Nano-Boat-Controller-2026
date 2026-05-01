@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+7db2357764320928658b7c7024a04b15 CMakeFiles/boat-controller_autogen
+7db2357764320928658b7c7024a04b15 CMakeFiles/boat-controller_autogen_timestamp_deps
+11ed721735a8da7d6e2b21e6e5779150 boat-controller_autogen/timestamp

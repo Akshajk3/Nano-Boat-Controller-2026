@@ -69,10 +69,45 @@ include CMakeFiles/boat-controller.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/boat-controller.dir/flags.make
 
+boat-controller_autogen/timestamp: /usr/lib/qt6/libexec/moc
+boat-controller_autogen/timestamp: /usr/lib/qt6/libexec/uic
+boat-controller_autogen/timestamp: CMakeFiles/boat-controller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target boat-controller"
+	/usr/bin/cmake -E cmake_autogen "/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles/boat-controller_autogen.dir/AutogenInfo.json" ""
+	/usr/bin/cmake -E touch "/home/clearcash/AE/Nano Boat Controller 2026/build/boat-controller_autogen/timestamp"
+
+CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o: CMakeFiles/boat-controller.dir/flags.make
+CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o: boat-controller_autogen/mocs_compilation.cpp
+CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o: CMakeFiles/boat-controller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o -MF CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o -c "/home/clearcash/AE/Nano Boat Controller 2026/build/boat-controller_autogen/mocs_compilation.cpp"
+
+CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/clearcash/AE/Nano Boat Controller 2026/build/boat-controller_autogen/mocs_compilation.cpp" > CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/clearcash/AE/Nano Boat Controller 2026/build/boat-controller_autogen/mocs_compilation.cpp" -o CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.s
+
+CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o: CMakeFiles/boat-controller.dir/flags.make
+CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o: /home/clearcash/AE/Nano\ Boat\ Controller\ 2026/src/Dashboard.cpp
+CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o: CMakeFiles/boat-controller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o -MF CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o.d -o CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o -c "/home/clearcash/AE/Nano Boat Controller 2026/src/Dashboard.cpp"
+
+CMakeFiles/boat-controller.dir/src/Dashboard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/boat-controller.dir/src/Dashboard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/clearcash/AE/Nano Boat Controller 2026/src/Dashboard.cpp" > CMakeFiles/boat-controller.dir/src/Dashboard.cpp.i
+
+CMakeFiles/boat-controller.dir/src/Dashboard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/boat-controller.dir/src/Dashboard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/clearcash/AE/Nano Boat Controller 2026/src/Dashboard.cpp" -o CMakeFiles/boat-controller.dir/src/Dashboard.cpp.s
+
 CMakeFiles/boat-controller.dir/src/Main.cpp.o: CMakeFiles/boat-controller.dir/flags.make
 CMakeFiles/boat-controller.dir/src/Main.cpp.o: /home/clearcash/AE/Nano\ Boat\ Controller\ 2026/src/Main.cpp
 CMakeFiles/boat-controller.dir/src/Main.cpp.o: CMakeFiles/boat-controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/boat-controller.dir/src/Main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/boat-controller.dir/src/Main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boat-controller.dir/src/Main.cpp.o -MF CMakeFiles/boat-controller.dir/src/Main.cpp.o.d -o CMakeFiles/boat-controller.dir/src/Main.cpp.o -c "/home/clearcash/AE/Nano Boat Controller 2026/src/Main.cpp"
 
 CMakeFiles/boat-controller.dir/src/Main.cpp.i: cmake_force
@@ -86,7 +121,7 @@ CMakeFiles/boat-controller.dir/src/Main.cpp.s: cmake_force
 CMakeFiles/boat-controller.dir/src/Serial.cpp.o: CMakeFiles/boat-controller.dir/flags.make
 CMakeFiles/boat-controller.dir/src/Serial.cpp.o: /home/clearcash/AE/Nano\ Boat\ Controller\ 2026/src/Serial.cpp
 CMakeFiles/boat-controller.dir/src/Serial.cpp.o: CMakeFiles/boat-controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/boat-controller.dir/src/Serial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/boat-controller.dir/src/Serial.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boat-controller.dir/src/Serial.cpp.o -MF CMakeFiles/boat-controller.dir/src/Serial.cpp.o.d -o CMakeFiles/boat-controller.dir/src/Serial.cpp.o -c "/home/clearcash/AE/Nano Boat Controller 2026/src/Serial.cpp"
 
 CMakeFiles/boat-controller.dir/src/Serial.cpp.i: cmake_force
@@ -100,7 +135,7 @@ CMakeFiles/boat-controller.dir/src/Serial.cpp.s: cmake_force
 CMakeFiles/boat-controller.dir/src/VescUart.cpp.o: CMakeFiles/boat-controller.dir/flags.make
 CMakeFiles/boat-controller.dir/src/VescUart.cpp.o: /home/clearcash/AE/Nano\ Boat\ Controller\ 2026/src/VescUart.cpp
 CMakeFiles/boat-controller.dir/src/VescUart.cpp.o: CMakeFiles/boat-controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/boat-controller.dir/src/VescUart.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/boat-controller.dir/src/VescUart.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boat-controller.dir/src/VescUart.cpp.o -MF CMakeFiles/boat-controller.dir/src/VescUart.cpp.o.d -o CMakeFiles/boat-controller.dir/src/VescUart.cpp.o -c "/home/clearcash/AE/Nano Boat Controller 2026/src/VescUart.cpp"
 
 CMakeFiles/boat-controller.dir/src/VescUart.cpp.i: cmake_force
@@ -114,7 +149,7 @@ CMakeFiles/boat-controller.dir/src/VescUart.cpp.s: cmake_force
 CMakeFiles/boat-controller.dir/src/buffer.cpp.o: CMakeFiles/boat-controller.dir/flags.make
 CMakeFiles/boat-controller.dir/src/buffer.cpp.o: /home/clearcash/AE/Nano\ Boat\ Controller\ 2026/src/buffer.cpp
 CMakeFiles/boat-controller.dir/src/buffer.cpp.o: CMakeFiles/boat-controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/boat-controller.dir/src/buffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/boat-controller.dir/src/buffer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boat-controller.dir/src/buffer.cpp.o -MF CMakeFiles/boat-controller.dir/src/buffer.cpp.o.d -o CMakeFiles/boat-controller.dir/src/buffer.cpp.o -c "/home/clearcash/AE/Nano Boat Controller 2026/src/buffer.cpp"
 
 CMakeFiles/boat-controller.dir/src/buffer.cpp.i: cmake_force
@@ -128,7 +163,7 @@ CMakeFiles/boat-controller.dir/src/buffer.cpp.s: cmake_force
 CMakeFiles/boat-controller.dir/src/crc.cpp.o: CMakeFiles/boat-controller.dir/flags.make
 CMakeFiles/boat-controller.dir/src/crc.cpp.o: /home/clearcash/AE/Nano\ Boat\ Controller\ 2026/src/crc.cpp
 CMakeFiles/boat-controller.dir/src/crc.cpp.o: CMakeFiles/boat-controller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/boat-controller.dir/src/crc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/boat-controller.dir/src/crc.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/boat-controller.dir/src/crc.cpp.o -MF CMakeFiles/boat-controller.dir/src/crc.cpp.o.d -o CMakeFiles/boat-controller.dir/src/crc.cpp.o -c "/home/clearcash/AE/Nano Boat Controller 2026/src/crc.cpp"
 
 CMakeFiles/boat-controller.dir/src/crc.cpp.i: cmake_force
@@ -141,6 +176,8 @@ CMakeFiles/boat-controller.dir/src/crc.cpp.s: cmake_force
 
 # Object files for target boat-controller
 boat__controller_OBJECTS = \
+"CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o" \
 "CMakeFiles/boat-controller.dir/src/Main.cpp.o" \
 "CMakeFiles/boat-controller.dir/src/Serial.cpp.o" \
 "CMakeFiles/boat-controller.dir/src/VescUart.cpp.o" \
@@ -150,16 +187,25 @@ boat__controller_OBJECTS = \
 # External object files for target boat-controller
 boat__controller_EXTERNAL_OBJECTS =
 
+bin/boat-controller: CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o
+bin/boat-controller: CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o
 bin/boat-controller: CMakeFiles/boat-controller.dir/src/Main.cpp.o
 bin/boat-controller: CMakeFiles/boat-controller.dir/src/Serial.cpp.o
 bin/boat-controller: CMakeFiles/boat-controller.dir/src/VescUart.cpp.o
 bin/boat-controller: CMakeFiles/boat-controller.dir/src/buffer.cpp.o
 bin/boat-controller: CMakeFiles/boat-controller.dir/src/crc.cpp.o
 bin/boat-controller: CMakeFiles/boat-controller.dir/build.make
+bin/boat-controller: /usr/local/lib/libvescuart.so
+bin/boat-controller: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.83.0
 bin/boat-controller: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.83.0
+bin/boat-controller: /usr/lib/x86_64-linux-gnu/libQt6Widgets.so.6.4.2
 bin/boat-controller: /usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.83.0
+bin/boat-controller: /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.4.2
+bin/boat-controller: /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.4.2
+bin/boat-controller: /usr/lib/x86_64-linux-gnu/libGLX.so
+bin/boat-controller: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 bin/boat-controller: CMakeFiles/boat-controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable bin/boat-controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable bin/boat-controller"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/boat-controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,7 +216,7 @@ CMakeFiles/boat-controller.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/boat-controller.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/boat-controller.dir/clean
 
-CMakeFiles/boat-controller.dir/depend:
+CMakeFiles/boat-controller.dir/depend: boat-controller_autogen/timestamp
 	cd "/home/clearcash/AE/Nano Boat Controller 2026/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/clearcash/AE/Nano Boat Controller 2026" "/home/clearcash/AE/Nano Boat Controller 2026" "/home/clearcash/AE/Nano Boat Controller 2026/build" "/home/clearcash/AE/Nano Boat Controller 2026/build" "/home/clearcash/AE/Nano Boat Controller 2026/build/CMakeFiles/boat-controller.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/boat-controller.dir/depend
 

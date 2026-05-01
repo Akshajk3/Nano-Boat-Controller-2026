@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "boat-controller_autogen/timestamp" "custom" "boat-controller_autogen/deps"
+  "/home/clearcash/AE/Nano Boat Controller 2026/build/boat-controller_autogen/mocs_compilation.cpp" "CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o.d"
+  "/home/clearcash/AE/Nano Boat Controller 2026/src/Dashboard.cpp" "CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o" "gcc" "CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o.d"
   "/home/clearcash/AE/Nano Boat Controller 2026/src/Main.cpp" "CMakeFiles/boat-controller.dir/src/Main.cpp.o" "gcc" "CMakeFiles/boat-controller.dir/src/Main.cpp.o.d"
   "/home/clearcash/AE/Nano Boat Controller 2026/src/Serial.cpp" "CMakeFiles/boat-controller.dir/src/Serial.cpp.o" "gcc" "CMakeFiles/boat-controller.dir/src/Serial.cpp.o.d"
   "/home/clearcash/AE/Nano Boat Controller 2026/src/VescUart.cpp" "CMakeFiles/boat-controller.dir/src/VescUart.cpp.o" "gcc" "CMakeFiles/boat-controller.dir/src/VescUart.cpp.o.d"

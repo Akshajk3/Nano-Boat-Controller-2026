@@ -1,18 +1,18 @@
-#include <iostream>
-#include <unistd.h>
-#include <VescUart.h> 
+#include <QApplication>
+#include "Dashboard.h"
 #include "Serial.h"
+#include "VescUart.h"
 
-int main()
-{
+int main(int argc, char* argv[]) {
+    QApplication app(argc, argv);
+
     Serial serial;
-    boost::asio::serial_port* ser = serial.getPort();
+    std::string port = serial.getSerialPort();
+    if (port.empty()) return -1;
 
-    VescUart vesc(ser);
+    VescUart vesc(port, 115200);
+    Dashboard dashboard(&vesc);
+    dashboard.show();
 
-    if (vesc.getVescValues()) {
-        vesc.printVescValues();
-    }
-
-    return 0;
+    return app.exec();
 }

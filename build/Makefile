@@ -129,6 +129,80 @@ boat-controller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boat-controller.dir/build.make CMakeFiles/boat-controller.dir/build
 .PHONY : boat-controller/fast
 
+#=============================================================================
+# Target rules for targets named boat-controller_autogen_timestamp_deps
+
+# Build rule for target.
+boat-controller_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boat-controller_autogen_timestamp_deps
+.PHONY : boat-controller_autogen_timestamp_deps
+
+# fast build rule for target.
+boat-controller_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boat-controller_autogen_timestamp_deps.dir/build.make CMakeFiles/boat-controller_autogen_timestamp_deps.dir/build
+.PHONY : boat-controller_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named boat-controller_autogen
+
+# Build rule for target.
+boat-controller_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 boat-controller_autogen
+.PHONY : boat-controller_autogen
+
+# fast build rule for target.
+boat-controller_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boat-controller_autogen.dir/build.make CMakeFiles/boat-controller_autogen.dir/build
+.PHONY : boat-controller_autogen/fast
+
+boat-controller_autogen/mocs_compilation.o: boat-controller_autogen/mocs_compilation.cpp.o
+.PHONY : boat-controller_autogen/mocs_compilation.o
+
+# target to build an object file
+boat-controller_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boat-controller.dir/build.make CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.o
+.PHONY : boat-controller_autogen/mocs_compilation.cpp.o
+
+boat-controller_autogen/mocs_compilation.i: boat-controller_autogen/mocs_compilation.cpp.i
+.PHONY : boat-controller_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+boat-controller_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boat-controller.dir/build.make CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.i
+.PHONY : boat-controller_autogen/mocs_compilation.cpp.i
+
+boat-controller_autogen/mocs_compilation.s: boat-controller_autogen/mocs_compilation.cpp.s
+.PHONY : boat-controller_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+boat-controller_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boat-controller.dir/build.make CMakeFiles/boat-controller.dir/boat-controller_autogen/mocs_compilation.cpp.s
+.PHONY : boat-controller_autogen/mocs_compilation.cpp.s
+
+src/Dashboard.o: src/Dashboard.cpp.o
+.PHONY : src/Dashboard.o
+
+# target to build an object file
+src/Dashboard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boat-controller.dir/build.make CMakeFiles/boat-controller.dir/src/Dashboard.cpp.o
+.PHONY : src/Dashboard.cpp.o
+
+src/Dashboard.i: src/Dashboard.cpp.i
+.PHONY : src/Dashboard.i
+
+# target to preprocess a source file
+src/Dashboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boat-controller.dir/build.make CMakeFiles/boat-controller.dir/src/Dashboard.cpp.i
+.PHONY : src/Dashboard.cpp.i
+
+src/Dashboard.s: src/Dashboard.cpp.s
+.PHONY : src/Dashboard.s
+
+# target to generate assembly for a file
+src/Dashboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/boat-controller.dir/build.make CMakeFiles/boat-controller.dir/src/Dashboard.cpp.s
+.PHONY : src/Dashboard.cpp.s
+
 src/Main.o: src/Main.cpp.o
 .PHONY : src/Main.o
 
@@ -257,7 +331,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... boat-controller_autogen"
+	@echo "... boat-controller_autogen_timestamp_deps"
 	@echo "... boat-controller"
+	@echo "... boat-controller_autogen/mocs_compilation.o"
+	@echo "... boat-controller_autogen/mocs_compilation.i"
+	@echo "... boat-controller_autogen/mocs_compilation.s"
+	@echo "... src/Dashboard.o"
+	@echo "... src/Dashboard.i"
+	@echo "... src/Dashboard.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
